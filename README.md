@@ -19,5 +19,5 @@ En el ládo matemático, calculamos la distancia euclideana por medio de la crea
 
 Para la parte de la evaluación del modelo, creamos la función calculate_metrics la calcula métricas de evaluación como precisión, exactitud, recall y especificidad, utilizando los valores de verdaderos positivos, verdaderos negativos, falsos positivos y falsos negativos. De esta manera evaluamos el modelo usando un bucle donde iteramos a través de las instancias de prueba. Para cada instancia de prueba, encontramos sus vecinos más cercanos, predecimos su etiqueta y comparamos con la etiqueta real para actualizar las métricas.
 
-Y para concluir, calculamos las métricas finales y mostramos los resultados, incluyendo verdaderos positivos, verdaderos negativos, falsos positivos, falsos negativos, precisión, exactitud, recall y especificidad.
+Y para concluir, calculamos las métricas finales y mostramos los resultados, incluyendo verdaderos positivos, verdaderos negativos, falsos positivos, falsos negativos, precisión, exactitud, recall y especificidad. Esto, además, se ve graficado con matplolib para poder saber si el modelo está aprendiendo y si generaliza. 
 
